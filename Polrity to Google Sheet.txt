@@ -23,8 +23,8 @@ from tqdm import tqdm
 
 tweets_dict_list = []
 
-auth = tw.OAuthHandler('dC0Ya95LoJpZqnXvpOIxhTbBX','YNi3GHgzVWls7i7MXrhAhhhgQIqfKiTVX7mPPfCY6RhBF2VADa')
-auth.set_access_token = ('80850353-YCsroLzxyjrtph9Y5djoduUqhKzqNbBdayJvvEg0O','jIq2Gr17uinIc4c7c3zpXErj82BGjkXQdD57WMVc7Sumj')
+auth = tw.OAuthHandler('XXX','YYY')
+auth.set_access_token = ('ZZZ','AAA')
 api=tw.API(auth)
 #username = 'elonmusk'
 #tweets = tweepy.Cursor(api.user_timeline,screen_name=username, tweet_mode='extended').items()
