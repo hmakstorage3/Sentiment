@@ -7,7 +7,7 @@ import os
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets', "https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive"]
 #SCOPES = 'https://www.googleapis.com/auth/spreadsheets'+"https://www.googleapis.com/auth/drive"+"https://www.googleapis.com/auth/drive"
 
-creds = ServiceAccountCredentials.from_json_keyfile_name(os.path.join('Z:/Ashwin/ds', 'SAFromPython-.json'), SCOPES)
+creds = ServiceAccountCredentials.from_json_keyfile_name(os.path.join('Y:/Ashwin/ds', 'SAFromPython-.json'), SCOPES)
 client = gspread.authorize(creds)
 
 sheet = client.open("Polarity").sheet1
